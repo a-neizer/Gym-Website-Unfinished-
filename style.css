@@ -116,3 +116,45 @@ button:hover{
     font-size: larger;
     padding-top: 30px;
 }
+.container {
+    margin-top: 210px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: #788aa3;
+    padding: 150px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+.product-card h2 {
+    margin: 0 0 10px;
+    color: #FFECCC;
+    text-decoration: underline;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.product-card p {
+    margin: 0 0 15px;
+    color: #FFECCC;
+    font-weight: bold;
+    font-size: large;
+}
+
+.product-card button {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #00ff62;
+}
